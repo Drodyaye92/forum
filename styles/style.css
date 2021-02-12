@@ -1,11 +1,29 @@
-.cote {
-    background-color: brown;
+.gauche {
+    background-color;
 }
 
-.img {
-    border: solid 1px black;
-    border-radius: 2px;
-    max-width: 25%
+.cor {
+    background: #DAE2F8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #D6A4A4, #DAE2F8);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #D6A4A4, #DAE2F8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cote {
+    background: #DC2424;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4A569D, #DC2424);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.design {
+    border: solid black 1px;
+    border-radius: 15px;
+    margin-top: 25px;
 }
 
 .gauche {
@@ -13,16 +31,31 @@
     height: auto;
 }
 
-group-form {
-    width: 70px;
+.tab-tete h3 {
+    border: solid 2px rgb(133, 133, 199);
+    border-radius: 15px;
+    margin-left: 100px;
+    width: 200px;
+    background-color: #192bce;
+}
+
+.active {
+    background-color: #DC2424;
+}
+
+.form element input {
+    width: 200px
 }
 
 .radus {
-    border-radius: 4px;
+    border: solid 1px black;
+    box-shadow: 12px 12px 15px 15px border-radius: 25px;
 }
 
 .droite {
     position: relative;
     margin-left: 700px;
-    margin-top: -800px;
+    margin-top: -500px;
+    border: solid 1px whitesmoke;
+    box-shadow: 12px 12px 15px 15px;
 }

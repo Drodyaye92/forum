@@ -1,0 +1,67 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .cor {
+        background: #DAE2F8;
+        background: -webkit-linear-gradient(to top, #D6A4A4, #DAE2F8);
+        background: linear-gradient(to top, #D6A4A4, #DAE2F8);
+    }
+    
+    .cote {
+        background: #DC2424;
+        background: -webkit-linear-gradient(to top, #4A569D, #DC2424);
+        background: linear-gradient(to top, #4A569D, #DC2424);
+    }
+    
+    .design {
+        border: solid black 1px;
+        border-radius: 15px;
+        margin-top: 25px;
+    }
+    
+    .gauche {
+        max-width: 40%;
+        height: auto;
+    }
+    
+    .tab-tete h3 {
+        border: solid 2px rgb(133, 133, 199);
+        border-radius: 15px;
+        margin-left: 100px;
+        width: 200px;
+        background-color: #192bce;
+    }
+    
+    .active {
+        background-color: #DC2424;
+    }
+    
+    .form element input {
+        width: 200px
+    }
+    
+    .radus {
+        border: solid 1px black;
+        box-shadow: 12px 12px 15px 15px border-radius: 25px;
+    }
+    
+    .form .tab-contenu .form-element button:hover {
+        background: #8E0E00;
+    }
+    
+    .form .tab-contenu>div.active {
+        display: inline-block;
+    }
+    
+    .form .tab-contenu>div {
+        display: none;
+    }
+    
+    .droite {
+        position: relative;
+        margin-left: 700px;
+        margin-top: -500px;
+    }
+    /*
